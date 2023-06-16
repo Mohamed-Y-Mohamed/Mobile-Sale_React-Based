@@ -12,8 +12,9 @@ function App() {
         <h1>NovaTech</h1>
       </div>
       <Navigation />
-      <div className="Main">
-        <Routes>
+    
+      <div class="Container">
+      <Routes>
         <Route path="/" element={<Card />}/>
           
           <Route path="/blogs" element={<Description />} />
